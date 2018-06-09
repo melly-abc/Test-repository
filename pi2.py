@@ -7,7 +7,7 @@ if __name__=="__main__":
 
  sys.stdout.write('Input the number of iterations\n>n=')
 
- for i in range(int(raw_input())):
+ for i in range(int(input())):
         a=1.0
         for j in range(i):
                 a*=(-1.0)
